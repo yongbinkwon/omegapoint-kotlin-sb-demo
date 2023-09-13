@@ -11,11 +11,11 @@ class MatchStatistic(
     private val id: Long? = null,
 
     @Column
-    private val winner: String? = null,
+    private val winner: String?,
 
     @Column
-    private val loser: String? = null,
+    private val loser: String?,
 
     @Column(nullable = false)
-    private val matchDate: LocalDateTime = LocalDateTime.now()
+    private val matchDate: LocalDateTime
 )
