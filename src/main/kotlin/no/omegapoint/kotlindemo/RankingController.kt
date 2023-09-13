@@ -6,6 +6,6 @@ class RankingController {
 }
 
 fun main() {
-    println(theBest())
-    println(theWorst())
+    //println(theBest())
+   // println(theWorst())
 }

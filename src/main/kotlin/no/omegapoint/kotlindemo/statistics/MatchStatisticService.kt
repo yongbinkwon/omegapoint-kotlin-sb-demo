@@ -11,11 +11,11 @@ class MatchStatisticService(
 ) {
     @Transactional(readOnly = true)
     fun wins() {
-        matchStatisticRepository.yourMethod(teamName)
+        //matchStatisticRepository.yourMethod(teamName)
     }
 
     @Transactional(readOnly = true)
     fun losses() {
-        matchStatisticRepository.yourMethod(teamName)
+        //matchStatisticRepository.yourMethod(teamName)
     }
 }
