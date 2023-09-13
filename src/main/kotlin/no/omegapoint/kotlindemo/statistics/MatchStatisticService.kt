@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional
 
 @Service
 class MatchStatisticService(
-    private val matchStatisticRepository: MatchStatisticRepository,
+    //private val matchStatisticRepository: MatchStatisticRepository,
     @Value("\${team}") private val teamName: String,
 ) {
     @Transactional(readOnly = true)
